@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 15 - Celsius a Fahrenheit</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f7f6; }
+        .caja { background: white; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 0 auto; }
+        input[type="number"] { width: 100%; padding: 8px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background: #fd7e14; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%; font-weight: bold; }
+        button:hover { background: #e36c09; }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <h2>Conversor de Temperatura</h2>
+        <form action="tarea_15.php" method="POST">
+            <label for="c">Temperatura en Grados Celsius (°C):</label>
+            <input type="number" id="c" name="celsius" step="0.1" required>
+            
+            <button type="submit">Convertir a Fahrenheit</button>
+        </form>
+    </div>
+</body>
+</html>
