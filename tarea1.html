@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <litle> ejercicio 1-formulario</litle>
+        <style>
+            body{ font-family:Arial,sans-serif;margin:40px; background-color:rgb(105, 238, 216);}
+            .caja{ background:rgb(15, 240, 202);paddin:20px; border-radius: :8px;max-width:400px;box-shadow:0 2px 5px rgba(0,0,0,0,1);}
+            input[type="text"]{width:100%;padding:8px;margin:10px 0;borde:1px solid#ccc;border-radius: 4px;}
+            button{ background:#ffffff;color:rgba(0, 0, 0, 0.993);border: 1px solid#ccc;border-radius: 4px;cursor:pointer;}
+            button.hover{background:#f892c5;}
+        </style>
+    </head> 
+    <body>
+        <div class="caja">
+            <h2>formulario de nombre</h2>
+            <form action="tarea_1.php" method="post">
+                <label for="nombre">ingrese tu nombre completo:</label>
+                <input type="text" id="nombre" name="nombre_usuario" required>
+                <button type="submit">Enviar al servidor </button>
+            </form>
+        </div>
+    </body>
+    </html>
