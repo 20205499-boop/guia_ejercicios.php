@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9 - Par o Impar</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f7f6; }
+        .caja { background: white; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 0 auto; }
+        input[type="number"] { width: 100%; padding: 8px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%; font-weight: bold; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <h2>Verificador Par o Impar</h2>
+        <form action="tarea_9.php" method="POST">
+            <label for="num">Ingresa un número entero:</label>
+            <input type="number" id="num" name="numero_entero" step="1" required>
+            <button type="submit">Verificar Número</button>
+        </form>
+    </div>
+</body>
+</html>
