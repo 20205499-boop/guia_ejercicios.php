@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2 - Sumar Números</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f7f6; }
+        .caja { background: white; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 0 auto; }
+        input[type="number"] { width: 100%; padding: 8px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background: #28a745; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%; font-weight: bold; }
+        button:hover { background: #218838; }
+    </style>
+</head>
+<body>
+
+    <div class="caja">
+        <h2>Operación de Suma</h2>
+        <form action="tarea_2.php" method="POST">
+            <label for="num1">Primer Número:</label>
+            <input type="number" id="num1" name="numero1" placeholder="Ej. 12" required>
+            
+            <label for="num2">Segundo Número:</label>
+            <input type="number" id="num2" name="numero2" placeholder="Ej. 8" required>
+            
+            <button type="submit">Calcular Suma</button>
+        </form>
+    </div>
+
+</body>
+</html>
